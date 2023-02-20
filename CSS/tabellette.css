@@ -1,0 +1,117 @@
+:root{
+    --blue: #0065FC;
+    --grey: #F2F2F2;
+    --black: #000000;
+    --grey_bg:#D9D9D9;
+    --bleu_clair_hover_filtre:#DEEBFF;
+}
+
+
+@media screen and (max-width : 992px) {
+    
+    body{
+        width: auto;
+    }
+    .Hebergetaside{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        height: 900px;
+    }
+    .aside_media{
+        display: flex;
+        min-width: 100%;
+        flex-direction: column;
+        height: 250px;        
+    }
+    .description_margin{
+        position: relative;
+        top:5px;
+    }
+    .Hebergement{
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+    .hotel_et_nuit{
+        height: 80px;
+    }
+    .block_popu{
+        width: 90%;
+    }
+    .Photo_populaire1{ 
+        width: 90%;
+    }
+    .photos_popu{
+        display: flex;
+    }
+    .Photo_populaire1{
+        width: 40%;
+        border-radius: 20px 0px 0px 20px;
+        margin: 5px;
+    }
+    .Titre_populaire{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .photo_description{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        
+    }  
+    .filre_filter{
+        display: flex;
+        box-sizing: content-box;
+        width: 100%;
+        
+    }
+    .description{
+        position: relative;
+        bottom: 15px;
+        font-size: 12px;
+        margin-left: 10px;
+        height: 50px;
+    }
+    
+    .block_etoile2{
+        position: relative;
+        bottom: 10px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
