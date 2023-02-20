@@ -25,7 +25,7 @@
     src: url("polices/static/Raleway-Bold.ttf");
 }
 
-@media screen and (min-width : 992px) {
+@media screen and (max-width : 1400px) {
     .a_header{
         padding-top: 14px;
         padding-left: 10px;
@@ -403,6 +403,7 @@ article{
     background-color: white;
     box-shadow: 5px 5px 5px var(--grey_bg); 
     margin-bottom: 35px;
+    cursor : pointer;
 }
 
 .fa-star{
