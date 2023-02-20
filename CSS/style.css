@@ -293,12 +293,14 @@ article{
     box-shadow: 5px 5px 5px var(--grey_bg);
     display: flex;
     flex-direction: column;
+    cursor:pointer
     
 }
 .image_photo{
     border-radius: 20px 20px 0 0;
     height: 124px;
     object-fit: cover;
+    width:100%;
 }
 .info_hotel{
     
@@ -555,3 +557,6 @@ footer{
     font-size: 18px;
 }
 
+input .placeholder{
+    color :"black"
+}
