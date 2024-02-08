@@ -2,9 +2,9 @@
     --blue: #0065FC;
     --grey: #F2F2F2;
     --black: #000000;
-    --grey_bg:#D9D9D9;
-    --bleu_clair_hover_filtre:#DEEBFF;
-  }
+    --grey_bg: #D9D9D9;
+    --bleu_clair_hover_filtre: #DEEBFF;
+}
 
 
 
@@ -12,158 +12,178 @@
     font-family: "Raleway";
     src: url('polices/Raleway/Raleway-VariableFont_wght.ttf');
 }
+
 @font-face {
     font-family: "Raleway-italic";
     src: url("polices/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 }
+
 @font-face {
     font-family: "Raleway-Dots";
     src: url("polices/Raleway_Dots/RalewayDots-Regular.ttf");
 }
+
 @font-face {
     font-family: "Raleway-bold";
     src: url("polices/static/Raleway-Bold.ttf");
 }
 
 @media screen and (max-width : 1400px) {
-    .a_header{
+    .a_header {
         padding-top: 14px;
         padding-left: 10px;
         padding-right: 11px;
     }
-    .a_header:hover{
+
+    .a_header:hover {
         color: var(--blue);
         border-top: 2px solid var(--blue);
     }
 }
-html{
+
+html {
     margin-bottom: 0;
-    
+    margin: 10px;
+
 }
-.eco_et_famille{
-    
+
+.eco_et_famille {
+
     display: flex;
-    
+
 }
-.espace-filtre{
+
+.espace-filtre {
     padding-left: 5px;
     cursor: pointer;
 }
-body{
-    max-width: 1400px;
+
+body {
+    max-width: 2000px;
     margin: auto;
 }
 
-.logo-booki{
+.logo-booki {
     width: 72px;
     height: 25px;
     position: relative;
-    top : 15px;
+    top: 15px;
 }
 
-h1{
+h1 {
     font-family: "Raleway-bold";
     font-size: 22px;
 }
-h2{
+
+h2 {
     font-family: "Raleway-bold";
     font-size: 18px;
 }
-.margin_heberg{
-    
+
+.margin_heberg {
+
     margin-top: 23px;
     margin-left: 25px;
 }
-.afficher_plus{
+
+.afficher_plus {
     margin-left: 25px;
     margin-top: 25px;
 }
-h3{
-    font-family: "Raleway-bold";
-    font-size: 16px;    
-}
-h4{
+
+h3 {
     font-family: "Raleway-bold";
     font-size: 16px;
 }
 
-header{
+h4 {
+    font-family: "Raleway-bold";
+    font-size: 16px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-li{
-    
-   
+li {
+
+
     padding-right: 50px;
-    
+
 }
-.afficher_plus{
+
+.afficher_plus {
     font-family: "Raleway-Bold";
 }
-.afficher_plus:hover{
+
+.afficher_plus:hover {
     color: var(--blue);
 }
-a{
-    
-    font-family:"Raleway" ;
+
+a {
+
+    font-family: "Raleway";
     text-decoration: none;
     color: var(--black);
     font-size: 16px;
 }
 
 
-p{
-    
+p {
+
     font-size: 16px;
     font-family: "Raleway";
-    
-    
-    
+
+
+
 }
-.fa-location-dot{
+
+.fa-location-dot {
     border: 1px solid var(--grey);
     height: 30px;
     width: 25px;
     padding-left: 20px;
     padding-top: 16px;
     border-radius: 15px 0px 0px 15px;
-    background-color:var(--grey) ;
+    background-color: var(--grey);
     color: var(--black);
 }
-.Dispo_logement{
+
+.Dispo_logement {
     position: relative;
     top: 3px;
 }
 
-i{
+i {
     color: var(--blue);
 }
 
-.Recherche{
-    display: flex;    
+.Recherche {
+    display: flex;
     width: 100%;
-    
+
 }
-button{
+
+button {
     background-color: var(--blue);
     color: white;
     font-size: 18px;
     font-family: "Raleway-bold";
-    border-radius:0px 15px 15px 0px;
-    
+    border-radius: 0px 15px 15px 0px;
+
     height: 49px;
     border: 1px solid var(--grey);
 
 }
 
-input{
+input {
     padding-left: 10px;
     border: 1px solid var(--grey);
     font-weight: bold;
@@ -171,34 +191,39 @@ input{
     font-size: 16px;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     width: 70%;
 }
-article{
+
+article {
     width: 72%;
 }
-.filre_filter{
+
+.filre_filter {
     display: flex;
     box-sizing: content-box;
     width: 800px;
-    
+
 }
-.filre_filter{
+
+.filre_filter {
     margin-top: 30px;
 }
-.Filtre{
+
+.Filtre {
     display: flex;
     height: 35px;
 }
-.filter{
+
+.filter {
     position: relative;
     bottom: 9px;
     margin-right: 10px;
 }
 
-.fa-info{
+.fa-info {
 
     top: 19px;
     position: relative;
@@ -213,27 +238,31 @@ article{
     width: 3px;
     background-color: var(--grey);
 }
-.information{
+
+.information {
     display: flex;
-    
+
     margin-bottom: 20px;
 
 }
 
-.fa-money-bill-wave{
-    margin-right: 7px;
-}
-.fa-person{
+.fa-money-bill-wave {
     margin-right: 7px;
 }
 
-.fa-heart{
+.fa-person {
     margin-right: 7px;
 }
-.fa-dog{
+
+.fa-heart {
     margin-right: 7px;
 }
-.element-filtre{
+
+.fa-dog {
+    margin-right: 7px;
+}
+
+.element-filtre {
     display: flex;
     border-radius: 25px;
     padding: 8px;
@@ -241,9 +270,10 @@ article{
     flex-direction: row;
     align-items: center;
     margin-left: 25px;
-    
+
 }
-.element-filtre2{
+
+.element-filtre2 {
     display: flex;
     border-radius: 25px;
     padding: 8px;
@@ -253,37 +283,41 @@ article{
     margin-left: 25px;
 
 }
-.element-filtre:hover{
-    background-color: var(--bleu_clair_hover_filtre);
-}
-.element-filtre2:hover{
+
+.element-filtre:hover {
     background-color: var(--bleu_clair_hover_filtre);
 }
 
-.Hebergement{
+.element-filtre2:hover {
+    background-color: var(--bleu_clair_hover_filtre);
+}
+
+.Hebergement {
     width: 67%;
     background-color: var(--grey);
     border-radius: 20px;
 }
-.aside_media{
+
+.aside_media {
     width: 29%;
     border-radius: 20px;
     background-color: var(--grey);
     height: 600px;
 }
 
-.Photo-mini{
+.Photo-mini {
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--grey);
     width: 195%;
-    height: 450px;  
-    
+    height: 450px;
+
 
 }
-.block-photo-mini{
+
+.block-photo-mini {
     background-color: white;
     border-radius: 20px;
     height: 199px;
@@ -293,68 +327,75 @@ article{
     box-shadow: 5px 5px 5px var(--grey_bg);
     display: flex;
     flex-direction: column;
-    cursor:pointer
-    
+    cursor: pointer
 }
-.image_photo{
+
+.image_photo {
     border-radius: 20px 20px 0 0;
     height: 124px;
     object-fit: cover;
-    width:100%;
+    width: 100%;
 }
-.info_hotel{
-    
+
+.info_hotel {
+
     margin-left: 16px;
     height: 70px;
 }
-.hotel_et_nuit{
-    
+
+.hotel_et_nuit {
+
     display: flex;
     flex-direction: column;
     width: 87%;
     margin-left: 7px;
     height: 70px;
-    
-    
+
+
 }
-.Hebergetaside{
-    
+
+.Hebergetaside {
+
     display: flex;
     justify-content: space-between;
-    width: 99%;  
+    width: 99%;
     margin-left: 0px;
 }
-.infos_nom{
+
+.infos_nom {
     position: relative;
     bottom: 10px;
     flex-wrap: nowrap;
 }
 
-.nuit{
+.nuit {
     font-size: 14px;
-    font-family: "Raleway";  
+    font-family: "Raleway";
     position: relative;
     bottom: 20px;
 }
 
-.starr{
+.starr {
     display: flex;
     position: relative;
     bottom: 25px;
-    
+
 }
-.starrr{
+
+.starrr {
     display: flex;
     margin-left: 7px;
-    
+
 }
-.block_etoile{
-    
+
+.block_etoile {
+
     height: 60px;
     display: flex;
     align-items: flex-end;
 }
-.block_etoile2{
+
+.block_etoile2 {
     height: 60px;
     display: flex;
     align-items: flex-end;
@@ -365,199 +406,222 @@ article{
     position: relative;
     bottom: 4px;
 }
-.Titre_populaire{
-    
+
+.Titre_populaire {
+
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     margin-left: 37px;
     margin-right: 40px;
     margin-top: 13px;
 }
-.photos_popu{
-    
+
+.photos_popu {
+
     margin-top: 10px;
 }
-.block_popu{
-    
-    
+
+.block_popu {
+
+
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.chart{
+.chart {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.fa-chart-line{
+
+.fa-chart-line {
     font-size: 20px;
 }
 
-.Populaire1{
-    
+.Populaire1 {
+
     display: flex;
     height: 144px;
     width: 85%;
-    border-radius: 20px; 
+    border-radius: 20px;
     background-color: white;
-    box-shadow: 5px 5px 5px var(--grey_bg); 
+    box-shadow: 5px 5px 5px var(--grey_bg);
     margin-bottom: 35px;
-    cursor : pointer;
+    cursor: pointer;
 }
 
-.fa-star{
+.fa-star {
     font-size: 12px;
     display: flex;
-    
+
 }
-h3{
+
+h3 {
     position: relative;
     bottom: 14px;
 }
-.p_size{
-    font-size: 13px ;
+
+.p_size {
+    font-size: 13px;
     position: relative;
     top: 5px;
 }
-.p_size2{
-    font-size: 13px ;
+
+.p_size2 {
+    font-size: 13px;
     position: relative;
     bottom: 40px;
 }
 
-.Photo_populaire1{
-    
+.Photo_populaire1 {
+
     width: 40%;
     border-radius: 20px 0px 0px 20px;
     margin: 5px;
     object-fit: cover;
 }
 
-.Photo_populaire2{
+.Photo_populaire2 {
     width: 40%;
     border-radius: 20px 0px 0px 20px;
     margin: 5px;
     object-fit: cover;
 }
 
-.Photo_populaire3{
+.Photo_populaire3 {
     width: 40%;
     border-radius: 20px 0px 0px 20px;
     margin: 5px;
     object-fit: cover;
 }
 
-.info_populaire1{
+.info_populaire1 {
     flex: 2;
     display: flex;
     flex-direction: column;
 }
-.Article_activité{
+
+.Article_activité {
     width: 100%;
 }
-.Block_activite{
+
+.Block_activite {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 600px;
-    
+
 }
 
-.photo_activité{
+.photo_activité {
     background: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") no-repeat 100%;
     height: 400px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
 }
-.photo_activité2{
+
+.photo_activité2 {
     background: url("../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg")no-repeat 100%;
     height: 400px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
 }
-.photo_activité3{
+
+.photo_activité3 {
     background: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg")no-repeat 100%;
     height: 400px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
 }
-.photo_activité4{
+
+.photo_activité4 {
     background: url("../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg")no-repeat 100%;
     height: 400px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     background-size: cover;
 }
-.center-filtre{
+
+.center-filtre {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.activité_margin{
+
+.activité_margin {
     margin-left: 20px;
-    
+
 }
 
-.photo_description{
+.photo_description {
     width: 23%;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px var(--grey_bg); 
-    
+    box-shadow: 5px 5px 5px var(--grey_bg);
+
+
 }
 
-.description{
+.description {
     border-radius: 0 0 20px 20px;
     height: 40px;
-    width: 100%; 
+    width: 100%;
 }
-.description_margin{
+
+.description_margin {
     position: relative;
     font-size: 16px;
     margin-left: 12px;
     bottom: 5px;
 }
-.titre_activite{
+
+.titre_activite {
     position: relative;
     top: 40px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     background-color: var(--grey);
     height: 200px;
 }
-.block_footer{
+
+.block_footer {
     width: 33%;
 }
-.block_foot{
+
+.block_foot {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}  
-.renseignement{
+}
+
+.renseignement {
     display: flex;
     flex-direction: column;
-    
+
 
 }
-.a_footer{
+
+.a_footer {
     padding: 5px;
     font-size: 16px;
 }
-.a_footer:hover{
+
+.a_footer:hover {
     color: var(--blue);
 }
-.titre_footer{
+
+.titre_footer {
     font-size: 18px;
 }
 
-input .placeholder{
-    color :"black"
+input .placeholder {
+    color: "black"
 }
