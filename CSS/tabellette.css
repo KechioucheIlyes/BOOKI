@@ -28,7 +28,6 @@
     }
 
     .description_margin {
-        border: 1px solid blue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -84,9 +83,7 @@
     }
 
     .description {
-        border: 1px solid green;
         display: flex;
-
         font-size: 12px;
 
     }

@@ -8,20 +8,18 @@
 
 @media screen and (max-width:767px) {
     .a_header {
-
         width: 100%;
-        border-bottom: 2px solid var(--grey);
         padding-bottom: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-bottom: 2px solid var(--grey);
 
     }
 
 
     .a_header:hover {
         color: var(--blue);
-        border-bottom: 2px solid var(--blue);
 
 
     }
@@ -43,9 +41,7 @@
         top: 15px;
         display: flex;
         justify-content: space-around;
-
         width: 100%;
-
         padding: 0;
 
     }
@@ -66,8 +62,16 @@
 
     }
 
+    .Recherche {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .rechercher {
         display: none;
+
     }
 
     .fa-magnifying-glass {
@@ -84,6 +88,11 @@
 
     .input {
         width: 190px;
+        height: 44px;
+    }
+
+    .filter {
+        margin-left: 10px;
     }
 
     .filre_filter {
@@ -108,8 +117,23 @@
     }
 
 
+    .filre_filter {}
+
+    #regroupe {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .votre_hebergement {
+        margin: 10px;
+    }
+
     section {
         width: 100%;
+
     }
 
     .h2_mobile {
@@ -128,13 +152,15 @@
 
         position: relative;
         bottom: 20px;
+        margin-left: 10px;
+
     }
 
     .element-filtre2 {
         display: flex;
         border-radius: 25px;
         padding: 8px;
-        border: 1px solid var(--grey_bg);
+
         flex-direction: row;
         position: relative;
         right: 20px;
@@ -147,19 +173,23 @@
     }
 
     .fa-money-bill-wave {
-        font-size: 25px;
+        font-size: 16px;
+        margin-right: 5px;
     }
 
     .fa-person {
-        font-size: 25px;
+        font-size: 16px;
+        margin-right: 5px;
     }
 
     .fa-heart {
-        font-size: 25px;
+        font-size: 16px;
+        margin-right: 5px;
     }
 
     .fa-dog {
-        font-size: 25px;
+        font-size: 16px;
+        margin-left: 15px;
     }
 
     .Hebergetaside {
@@ -187,6 +217,19 @@
         width: 90%;
     }
 
+    .description {
+        border: 1px solid green;
+
+    }
+
+    html {
+        margin: 0
+    }
+
+    .center-filtre {
+        font-size: 8px;
+    }
+
     .block_popu {
         display: flex;
         justify-content: center;
@@ -198,7 +241,6 @@
         position: relative;
         background-color: white;
         height: 1800px;
-        border: 1px solid violet;
     }
 
     .Photo-mini {
@@ -226,7 +268,6 @@
 
 
     .Block_activite {
-        border: 1px solid black;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -235,7 +276,6 @@
     }
 
     .photo_description {
-        border: 1px solid green;
         width: 90%;
         height: 450px;
 
@@ -253,14 +293,20 @@
         justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
+        margin-left: 0px;
     }
 
     .renseignement {
-
         position: relative;
         width: 280px;
         top: 20px;
         margin-left: 20px;
+    }
+
+    .p {
+
+        position: relative;
+        bottom: 20px;
     }
 
 }

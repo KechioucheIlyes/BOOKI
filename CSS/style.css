@@ -43,14 +43,15 @@
 
 html {
     margin-bottom: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin: 10px
 }
+
+main {}
 
 .a_header {
 
     width: 100%;
+
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -61,6 +62,8 @@ html {
 .a_header:hover {
     color: var(--blue);
     border-bottom: 2px solid var(--blue);
+    border-top: 2px solid white;
+
 
 
 }
@@ -240,7 +243,6 @@ article {
     position: relative;
     bottom: 9px;
     margin-right: 10px;
-    border: 1px solid black;
 }
 
 .fa-info {
@@ -267,19 +269,22 @@ article {
 }
 
 .fa-money-bill-wave {
-    margin-right: 7px;
+    font-size: 22px;
+    
 }
 
 .fa-person {
-    margin-right: 7px;
+    font-size: 22px;
+    
 }
 
 .fa-heart {
-    margin-right: 7px;
+    font-size: 22px;
+    
 }
 
 .fa-dog {
-    margin-right: 7px;
+    font-size: 22px;
 }
 
 .element-filtre {
@@ -290,6 +295,7 @@ article {
     flex-direction: row;
     align-items: center;
     margin-left: 25px;
+    justify-content: center;
 
 }
 
@@ -301,6 +307,7 @@ article {
     flex-direction: row;
     align-items: center;
     margin-left: 25px;
+    justify-content: center;
 
 }
 
@@ -316,7 +323,6 @@ article {
     width: 67%;
     background-color: var(--grey);
     border-radius: 20px;
-    
 }
 
 .aside_media {
@@ -572,6 +578,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 .activité_margin {
@@ -621,6 +629,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 1px solid red;
+    margin-left: 20px;
+
 }
 
 .renseignement {
