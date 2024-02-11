@@ -17,6 +17,13 @@
 
     }
 
+    .a_header:active,
+    .a_header:focus {
+        /* Au moment du clic */
+
+        /* Change la couleur en rose */
+    }
+
 
     .a_header:hover {
         color: var(--blue);
@@ -33,7 +40,8 @@
 
     .logo-booki {
         width: 65px;
-        margin: auto;
+        margin-top: 25px;
+
     }
 
     nav {
@@ -113,6 +121,11 @@
 
     .eco_et_famille {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+
 
     }
 
@@ -141,10 +154,15 @@
     }
 
     .element-filtre {
-        height: 30px;
+        height: 19px;
         width: 160px;
         position: relative;
         right: 20px;
+
+    }
+
+    .espace-filtre {
+        padding: 0;
 
     }
 
@@ -165,7 +183,7 @@
         position: relative;
         right: 20px;
         width: 160px;
-        height: 30px;
+        height: 19px;
     }
 
     .element-filtre2:hover {
@@ -175,6 +193,7 @@
     .fa-money-bill-wave {
         font-size: 16px;
         margin-right: 5px;
+
     }
 
     .fa-person {
@@ -189,7 +208,8 @@
 
     .fa-dog {
         font-size: 16px;
-        margin-left: 15px;
+        margin-right: 10px;
+
     }
 
     .Hebergetaside {
@@ -248,7 +268,7 @@
         display: flex;
         flex-direction: column;
         height: 1600px;
-        width: 140%;
+        width: 137%;
     }
 
     .block-photo-mini {

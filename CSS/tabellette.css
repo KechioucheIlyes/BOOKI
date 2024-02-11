@@ -41,6 +41,10 @@
 
     }
 
+    .h2_mobile {
+        font-size: 13px;
+    }
+
     .hotel_et_nuit {
         height: 80px;
     }

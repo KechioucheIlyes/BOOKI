@@ -37,7 +37,6 @@
 
     .a_header:hover {
         color: var(--blue);
-        border-top: 2px solid var(--blue);
     }
 }
 
@@ -61,11 +60,7 @@ main {}
 
 .a_header:hover {
     color: var(--blue);
-    border-bottom: 2px solid var(--blue);
-    border-top: 2px solid white;
-
-
-
+    border-top: 2px solid var(--blue);
 }
 
 .eco_et_famille {
@@ -75,9 +70,14 @@ main {}
 }
 
 .espace-filtre {
-    padding-left: 5px;
+
+    padding: 0px 15px;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
 }
+
 
 body {
     max-width: 2000px;
@@ -85,10 +85,9 @@ body {
 }
 
 .logo-booki {
-    width: 72px;
+    width: 78px;
     height: 25px;
-    position: relative;
-    top: 15px;
+
 }
 
 h1 {
@@ -125,6 +124,9 @@ h4 {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+
 }
 
 ul {
@@ -227,23 +229,22 @@ article {
     display: flex;
     box-sizing: content-box;
     width: 800px;
-
-}
-
-.filre_filter {
     margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
 }
+
+.filre_filter {}
 
 .Filtre {
     display: flex;
-    height: 35px;
+    height: 40px;
+
 }
 
-.filter {
-    position: relative;
-    bottom: 9px;
-    margin-right: 10px;
-}
+.filter {}
 
 .fa-info {
 
@@ -270,17 +271,17 @@ article {
 
 .fa-money-bill-wave {
     font-size: 22px;
-    
+
 }
 
 .fa-person {
     font-size: 22px;
-    
+
 }
 
 .fa-heart {
     font-size: 22px;
-    
+
 }
 
 .fa-dog {
@@ -290,24 +291,27 @@ article {
 .element-filtre {
     display: flex;
     border-radius: 25px;
-    padding: 8px;
-    border: 1px solid var(--grey_bg);
+    padding: 8px 18px;
+    border: 2px solid var(--grey_bg);
     flex-direction: row;
     align-items: center;
     margin-left: 25px;
     justify-content: center;
+    cursor: pointer;
+
 
 }
 
 .element-filtre2 {
     display: flex;
     border-radius: 25px;
-    padding: 8px;
-    border: 1px solid var(--grey_bg);
+    padding: 8px 25px;
+    border: 2px solid var(--grey_bg);
     flex-direction: row;
     align-items: center;
     margin-left: 25px;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -432,6 +436,22 @@ article {
     color: #F2F2F2;
     position: relative;
     bottom: 4px;
+}
+
+.a_header:active,
+.a_header:focus {
+    /* Au moment du clic */
+
+    /* Change la couleur en rose */
+    border-bottom: 2px solid var(--blue);
+}
+
+.a_header:target {
+    border-bottom: 2px solid var(--blue);
+}
+
+a_header:visited {
+    border-bottom: 2px solid pink
 }
 
 .Titre_populaire {
@@ -629,7 +649,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid red;
+
     margin-left: 20px;
 
 }
