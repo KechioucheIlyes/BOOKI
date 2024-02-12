@@ -6,6 +6,9 @@
     --bleu_clair_hover_filtre: #DEEBFF;
 }
 
+* {
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: "Raleway";
@@ -230,7 +233,6 @@ article {
     box-sizing: content-box;
     width: 800px;
     margin-top: 30px;
-    justify-content: center;
     align-items: center;
     width: 100%;
 
@@ -411,11 +413,19 @@ article {
     position: relative;
     bottom: 25px;
 
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .starrr {
     display: flex;
     margin-left: 7px;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -424,6 +434,7 @@ article {
     height: 60px;
     display: flex;
     align-items: flex-end;
+
 }
 
 .block_etoile2 {
@@ -435,7 +446,7 @@ article {
 .color_star .fa-star {
     color: #F2F2F2;
     position: relative;
-    bottom: 4px;
+
 }
 
 .a_header:active,

@@ -27,8 +27,8 @@
 
     .a_header:hover {
         color: var(--blue);
-
-
+        border-bottom: 2px solid var(--blue);
+        border-top: 0;
     }
 
     header {
@@ -124,7 +124,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+
 
 
     }
@@ -157,7 +157,7 @@
         height: 19px;
         width: 160px;
         position: relative;
-        right: 20px;
+        right: 10px;
 
     }
 
@@ -237,10 +237,7 @@
         width: 90%;
     }
 
-    .description {
-        border: 1px solid green;
-
-    }
+    .description {}
 
     html {
         margin: 0
