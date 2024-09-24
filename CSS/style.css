@@ -595,7 +595,7 @@ a {
         align-items: center;
     }
 
-    .neva {
+    .nav-parent {
         display: flex;
         flex-direction: column;
         width: 100%;
